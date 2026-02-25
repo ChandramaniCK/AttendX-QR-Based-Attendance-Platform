@@ -1,0 +1,181 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f7fb;
+}
+
+/* Gradient Background for Auth Pages */
+.auth-bg {
+    background: linear-gradient(135deg, #4e73df, #1cc88a);
+    height: 100vh;
+}
+
+/* Auth Container */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.auth-card {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    width: 380px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: #4e73df;
+    outline: none;
+}
+
+/* Buttons */
+.primary-btn {
+    width: 100%;
+    padding: 12px;
+    background: #4e73df;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.primary-btn:hover {
+    background: #2e59d9;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 240px;
+    height: 100vh;
+    background: #2c3e50;
+    color: white;
+    position: fixed;
+    padding: 25px;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    padding: 12px 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sidebar ul li:hover {
+    padding-left: 10px;
+    color: #1cc88a;
+}
+
+/* Main Content */
+.main {
+    margin-left: 260px;
+    padding: 40px;
+}
+
+.main.full {
+    margin-left: 0;
+}
+
+/* Dashboard Cards */
+.dashboard-cards {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.info-card {
+    background: white;
+    padding: 20px;
+    flex: 1;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.info-card p {
+    font-size: 28px;
+    font-weight: bold;
+    color: #4e73df;
+}
+
+/* Card Section */
+.card-section {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background: #4e73df;
+    color: white;
+}
+
+.present {
+    color: green;
+    font-weight: bold;
+}
+
+.absent {
+    color: red;
+    font-weight: bold;
+}
+
+/* QR Box */
+.qr-box {
+    height: 220px;
+    border: 2px dashed #4e73df;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    background: #f9fbff;
+}
